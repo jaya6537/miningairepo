@@ -37,7 +37,8 @@ def ask_ai(query):
     response = index.query(query)
     return f"Response: *{response.response}*"
 
-os.environ["OPENAI_API_KEY"] = input("Paste your OpenAI key here and hit enter:")
+OPENAI_API_KEY="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"
+os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
 
 construct_index("jaya6537/chatbot")
 
