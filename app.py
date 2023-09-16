@@ -51,4 +51,4 @@ iface = gr.Interface(
     description="Ask the AI any question.",
 )
 
-iface.launch(share=True)
+iface.launch()
