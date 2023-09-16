@@ -40,7 +40,7 @@ def ask_ai(query):
 OPENAI_API_KEY="OPENAI_API_KEY"
 os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
 
-construct_index("jaya6537/chatbot")
+construct_index("chatbotdata")
 
 iface = gr.Interface(
     fn=ask_ai,
